@@ -1,0 +1,163 @@
+/* General Styles */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  background-color: #f1f3f6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* Comment Section Container */
+.comment-section {
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Comment Section Title */
+.comment-section h2 {
+  margin-bottom: 20px;
+  color: #444;
+  font-size: 24px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Comment Input Form */
+.comment-input form {
+  margin-bottom: 20px;
+}
+
+.comment-input input,
+.comment-input textarea,
+.comment .reply input,
+.comment .reply textarea,
+.comment form textarea {
+  width: 100%;
+  padding: 12px;
+  resize: none;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  font-size: 14px;
+  background-color: #f9f9f9;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.comment-input input:focus,
+.comment-input textarea:focus {
+  background-color: #fff;
+  border-color: #007bff;
+}
+
+.comment-input button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.comment-input button:hover {
+  background-color: #0056b3;
+}
+
+/* Error Message */
+.error-message {
+  color: #d9534f;
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* Comment Container */
+.comment {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  margin-bottom: 15px;
+  background-color: #fafafa;
+  position: relative;
+  transition: box-shadow 0.3s ease;
+}
+
+.comment:hover {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+}
+
+.comment p {
+  margin: 0 0 10px;
+  color: #555;
+  font-size: 15px;
+}
+
+.comment strong {
+  color: #007bff;
+  font-size: 16px;
+}
+
+.comment small {
+  color: #999;
+  display: block;
+  margin-bottom: 10px;
+  font-size: 12px;
+}
+
+/* Comment Actions */
+.comment-actions {
+  display: flex;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.comment-actions button {
+  background: none;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  padding: 0;
+  font-size: 14px;
+  transition: color 0.3s ease;
+  text-decoration: underline;
+}
+
+.comment-actions button:hover {
+  color: #0056b3;
+}
+
+/* Reply Section */
+.comment .reply {
+  margin-left: 20px;
+  border-left: 2px solid #ddd;
+  padding-left: 15px;
+  margin-top: 10px;
+}
+
+/* Sort Buttons */
+.sort-buttons {
+  margin-bottom: 20px;
+  text-align: right;
+}
+
+.sort-buttons button {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  margin-left: 5px;
+  font-size: 14px;
+  transition: background-color 0.3s ease;
+}
+
+.sort-buttons button:hover {
+  background-color: #0056b3;
+}
